@@ -10,4 +10,4 @@ jobs:
     steps:
       - name: cURL request
         # Hit the webhook endpoint to rebuild  from the "main" branch
-        run: curl --request GET 'https://api.rocketsurvey.us/email-campaign/test-cron'
+        run: curl --request GET 'https://api.rocketsurvey.us/email-campaign/email-cron'
